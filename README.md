@@ -1,4 +1,4 @@
-# GPU Evolution Benchmark: A Comparative Analysis of GPU vs CPU Performance Across Decades
+# GPU Evolution Benchmark: A Comparative Analysis of GPU vs CPU Performance Across Decades.
 
 #Abbreviations used:
 - G = GPU
