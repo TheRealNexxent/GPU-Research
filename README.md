@@ -1,5 +1,12 @@
 # GPU Evolution Benchmark: A Comparative Analysis of GPU vs CPU Performance Across Decades
 
+#Abbreviations used:
+- G = GPU
+- C = CPU
+- OG = Old GPU
+- OC = Old CPU
+- v = Versus/Comparison
+
 ## Overview
 
 This repository contains a comprehensive empirical study analyzing the architectural evolution and performance transition of GPUs from the 2000s era to modern accelerators. Through systematic benchmarking on Google Colab, this project quantifies how GPU technology evolved and why GPUs became the dominant computing paradigm for parallel workloads.
