@@ -1,0 +1,10 @@
+#Summary
+print("=== SUMMARY ===")
+print(f"{'Comparison':<30} {'Time 1 (s)':<15} {'Time 2 (s)':<15} {'Speedup':<10}")
+print("-" * 70)
+print(f"{'Modern GPU vs 2000s GPU':<30} {time_modern_gpu:<15.4f} {time_2000s_gpu:<15.4f} {time_2000s_gpu/time_modern_gpu:.2f}x")
+print(f"{'Modern CPU vs 2000s CPU':<30} {time_modern_cpu:<15.4f} {time_2000s_cpu:<15.4f} {time_2000s_cpu/time_modern_cpu:.2f}x")
+print(f"{'Modern GPU vs Modern CPU':<30} {time_gpu:<15.4f} {time_cpu:<15.4f} {time_cpu/time_gpu:.2f}x")
+print(f"{'Modern GPU vs 2000s CPU':<30} {time_gpu:<15.4f} {time_2000s_cpu:<15.4f} {time_2000s_cpu/time_gpu:.2f}x")
+print(f"{'2000s GPU vs 2000s CPU':<30} {time_2000s_gpu:<15.4f} {time_2000s_cpu:<15.4f} {time_2000s_cpu/time_2000s_gpu:.2f}x")
+print(f"{'2000s GPU vs Modern CPU':<30} {time_2000s_gpu:<15.4f} {time_modern_cpu:<15.4f} {time_2000s_gpu/time_modern_cpu:.2f}x")
